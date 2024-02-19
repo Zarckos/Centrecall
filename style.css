@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bureau.jpg);
+}
+#nav1 nav {
+    background:#16b4b4;
+    margin-top: 0px;
+    height: 80px;
+    width: 100%;
+    transition: all 0.3s ease-in-out 0.2s;
+}
+#nav1 a {
+    font-size: 17px;
+}
+
+#nav1:hover a{
+    font-size: 19px;
+    margin-top: 20px;
+    height: 100px;
+}
+#logo a{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out 0.2s;
+
+}
+#logo a:hover {
+    font-size: 500px;
+}
+#nav1:hover #logo a{
+    font-size: 40px;
+    height: 100px;
+}
+
+#nav2 nav {
+    background: #14d1d1;
+    box-shadow: 0.1em 0.1em 0.6em #04ffff;;
+    height: 3px;
+    width: 100%;
+}
+
+#nav1 nav ul{
+    float: right;
+    margin-right: 20px;
+}
+#nav1 nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+    line-height: 80px;
+    margin: 0 5px
+}
+#nav1 ul li a {
+    color: white;
+    text-transform:uppercase;
+    transition: all 0.3s ease-in-out 0.2s;
+}
+#nav1 a:hover {
+    font-size: 20px;
+    background: #3f7f92;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+#textMain p{
+    text-align: center;
+    font-size: 40px;
+}
+#textMain h1{
+    margin-top: 200px;
+    font-size: 150px;
+    text-align: center;
+    transform:scale(1);
+    transition: 0.3s ease-in-out;
+}
+#textMain:hover h1{
+    font-size: 175px;
+}
+#preImg{
+
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    transform: scale(1);
+    border-radius: 4px;
+	filter: drop-shadow(rgb(0 0 0 / 50%) 0px 2px 10px);
+    transition: 0.3s ease-in-out;
+}
+#preImg:hover{
+    transform:scale(1.1)
+}
+#preText table, td{
+    border: 1px solid #bdddee;
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+}
+#preText th {
+    background-color: #9ec9df
+}
+
+#preText p{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#orgImg {
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    transform: scale(1);
+    border-radius: 4px;
+	filter: drop-shadow(rgb(0 0 0 / 50%) 0px 2px 10px);
+    transition: 0.3s ease-in-out;
+}
+#orgImg:hover{
+    transform:scale(1.1)
+}
+#orgText p{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#orgText li{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#descText p{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#descImg {
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    transform: scale(1);
+    border-radius: 4px;
+	filter: drop-shadow(rgb(0 0 0 / 50%) 0px 2px 10px);
+    transition: 0.3s ease-in-out;
+}
+#descImg:hover{
+    transform:scale(1.1)
+}
+#siImg {
+    margin-left: 700px;
+    margin-top: 20px;
+    transform: scale(1);
+    border-radius: 4px;
+	filter: drop-shadow(rgb(0 0 0 / 50%) 0px 2px 10px);
+    transition: 0.3s ease-in-out;
+}
+#siImg:hover{
+    transform:scale(1.1)
+}
+
+#descText ol{
+    margin-left: 50px;
+    padding-bottom: 10px;
+    list-style-type: auto;
+}
+#enqImg{
+    margin-top: 50px;
+    margin-left: 680px;
+    transform: scale(1);
+    border-radius: 4px;
+	filter: drop-shadow(rgb(0 0 0 / 50%) 0px 2px 10px);
+    transition: 0.3s ease-in-out;
+}
+#enqImg:hover{
+    transform:scale(1.1)
+}
+#enqText h1{
+    margin-top: 30px;
+    text-align: center;
+}
+#enqText ul {
+    margin-left: 300px;
+}
+#enqText ul li {
+    padding-left: 100px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+#enqButton {
+    padding: 10px;
+    margin-left: 850px;
+    transform: scale(1.50);
+    background-color: #0099CC;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;filter: drop-shadow(rgb(0 0 0 / 0%) 0px 0px 0px);
+}
+#enqButton:hover {
+    filter: drop-shadow(rgb(0 0 0 / 50%) 0px 2px 10px);
+    background-color: white;
+    color:#0099CC;
+
+}
+#textAlign ul li {
+    display: inline-block;
+    vertical-align:middle;
+    padding-bottom:30px
+}
+#textAlign h1 {
+    margin-top: 120px;
+    margin-left: 20px;
+}
+#textAlign2 ul {
+    margin-left: 1000px;
+}
+#textAlign2 ul li {
+    display: inline-block;
+    vertical-align:middle;
+    padding-bottom:30px
+}
+#textAlign2 h1 {
+    margin-top: 120px;
+    margin-right: 20px;
+}
+#bottomText {
+    text-align: center;
+    font-size: 10px;
+}
+
